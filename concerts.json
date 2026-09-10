@@ -1,11 +1,52 @@
 {
   "datesFooter": "*duo ft. Ana Fiszman<br>**June gigs ft. Ana Fiszman, Johnnie Elza Zumente Steele & Carmen Martinez Navarro<br>***10 July ft. Ana Fiszman, Johnnie Elza Zumente Steele & Daan Arets",
   "concerts": [
-    { "date": "2026-06-12", "displayDate": "12 June '26", "event": "Lydia Stavraki, Het Witte Paard, Rotterdam" },
-    { "date": "2026-06-13", "displayDate": "13 June '26", "event": "Lydia Stavraki, Wijkfeest Provenierswijk, Spoorsingel, Rotterdam" },
-    { "date": "2026-07-04", "displayDate": "4 July '26", "event": "Lydia Stavraki (duo), Jazzhaven, NSRT, Rotterdam" },
-    { "date": "2026-07-09", "displayDate": "9 July '26", "event": "Lydia Stavraki (duo), Jazz op de Meent, NSRT, Rotterdam" },
-    { "date": "2026-07-10", "displayDate": "10 July '26", "event": "Lydia Stavraki, Vrijmoed, NSRT, Rotterdam" },
-    { "date": "2026-08-15", "displayDate": "15 Aug '26", "event": "Lydia Stavraki (duo), Playgrounds sessions, Lab Grounds, Rotterdam" }
+    {
+      "date": "2026-06-12",
+      "displayDate": "12 June '26",
+      "event": "Lydia Stavraki, Het Witte Paard, Rotterdam"
+    },
+    {
+      "date": "2026-06-13",
+      "displayDate": "13 June '26",
+      "event": "Lydia Stavraki, Wijkfeest Provenierswijk, Spoorsingel, Rotterdam"
+    },
+    {
+      "date": "2026-07-04",
+      "displayDate": "4 July '26",
+      "event": "Lydia Stavraki (duo), Jazzhaven, NSRT, Rotterdam"
+    },
+    {
+      "date": "2026-07-09",
+      "displayDate": "9 July '26",
+      "event": "Lydia Stavraki (duo), Jazz op de Meent, NSRT, Rotterdam"
+    },
+    {
+      "date": "2026-07-10",
+      "displayDate": "10 July '26",
+      "event": "Lydia Stavraki, Vrijmoed, NSRT, Rotterdam"
+    },
+    {
+      "date": "2026-08-15",
+      "displayDate": "15 Aug '26",
+      "event": "Lydia Stavraki (duo), Playgrounds sessions, Lab Grounds, Rotterdam"
+    },
+    {
+      "date": "2026-09-05",
+      "displayDate": "",
+      "event": "w/ Anita Fiszman, Laurens De Hofstee, Rotterdam"
+    },
+    {
+      "date": "2026-09-16",
+      "event": "BIRDsessions w/ Lezaam Beets, BIRD, Rotterdam"
+    },
+    {
+      "date": "2026-09-25",
+      "event": "House Concert Matu Miranda ft. Lydia Stavraki, Delfshaven, Rotterdam"
+    },
+    {
+      "date": "2026-09-27",
+      "event": "w/ La Parranda, Strandtent14, Zuiderstrand, The Hague"
+    }
   ]
 }
