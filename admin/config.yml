@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: studio-maxwaelbers/lydiastavraki
+  name: git-gateway
   branch: main
 
 media_folder: "images"
