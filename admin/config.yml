@@ -8,6 +8,8 @@ public_folder: "images"
 collections:
   - name: "about"
     label: "About Section"
+    editor:
+      preview: false
     files:
       - file: "about.json"
         label: "About Text"
@@ -22,6 +24,8 @@ collections:
             
   - name: "concerts"
     label: "Concert Dates"
+    editor:
+      preview: false
     files:
       - file: "concerts.json"
         label: "Concerts List"
