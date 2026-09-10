@@ -7,18 +7,26 @@ media_folder: "images"
 public_folder: "images"
 
 collections:
-  - name: "content"
-    label: "Website Content"
+  - name: "about"
+    label: "About Section"
     files:
-      - file: "content.json"
-        label: "About & Concert Dates"
-        name: "site_content"
+      - file: "about.json"
+        label: "About Text"
+        name: "about"
         fields:
           - { label: "Bio Header Tagline", name: "bioTag", widget: "string" }
           - label: "Bio Paragraphs"
             name: "bioColumns"
             widget: "list"
             field: { label: "Paragraph Text", name: "paragraph", widget: "text" }
+            
+  - name: "concerts"
+    label: "Concert Dates"
+    files:
+      - file: "concerts.json"
+        label: "Concerts List"
+        name: "concerts"
+        fields:
           - { label: "Dates Footer Text", name: "datesFooter", widget: "text" }
           - label: "Concert Dates"
             name: "concerts"
