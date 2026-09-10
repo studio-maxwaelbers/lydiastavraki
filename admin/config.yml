@@ -13,6 +13,7 @@ collections:
       - file: "about.json"
         label: "About Text"
         name: "about"
+        format: "json"
         fields:
           - { label: "Bio Header Tagline", name: "bioTag", widget: "string" }
           - label: "Bio Paragraphs"
@@ -26,6 +27,7 @@ collections:
       - file: "concerts.json"
         label: "Concerts List"
         name: "concerts"
+        format: "json"
         fields:
           - { label: "Dates Footer Text", name: "datesFooter", widget: "text" }
           - label: "Concert Dates"
