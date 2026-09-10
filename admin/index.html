@@ -8,12 +8,10 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   
   <style>
-    /* CSS fallbacks for Decap CMS top nav elements */
+    /* Direct CSS override */
     a[href*="media"],
     a[href="#/media"],
-    header nav a:nth-of-type(2),
-    [class*="AppHeader"] a:nth-of-type(2),
-    [class*="appHeader"] a:nth-of-type(2) {
+    [class*="AppHeader"] a:nth-of-type(2) {
       display: none !important;
     }
   </style>
@@ -22,15 +20,24 @@
   <!-- Decap CMS Script -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 
-  <!-- Observer script to force-remove the tab as React renders it -->
+  <!-- Continuous DOM scanner script -->
   <script>
-    const observer = new MutationObserver(() => {
-      const mediaTabs = document.querySelectorAll('a[href*="media"], a[href="#/media"]');
-      mediaTabs.forEach(tab => {
-        tab.style.setProperty('display', 'none', 'important');
+    function hideMediaTab() {
+      const elements = document.querySelectorAll('a, button, span, div');
+      elements.forEach(el => {
+        const href = el.getAttribute('href') || '';
+        const text = el.textContent ? el.textContent.trim() : '';
+        
+        if (href.includes('media') || text === 'Media') {
+          const tab = el.closest('a') || el.closest('button') || el;
+          tab.style.setProperty('display', 'none', 'important');
+          tab.style.setProperty('visibility', 'hidden', 'important');
+        }
       });
-    });
-    observer.observe(document.body, { childList: true, subtree: true });
+    }
+
+    // Run repeatedly to override React re-renders
+    setInterval(hideMediaTab, 100);
   </script>
 </body>
 </html>
