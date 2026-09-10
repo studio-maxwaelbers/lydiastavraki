@@ -6,10 +6,14 @@
   <title>Content Manager</title>
   <!-- Netlify Identity Widget -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
   <style>
-    /* Hide Media tab from top navigation bar */
-    a[href*="#/media"],
-    a[href="#/media"] {
+    /* CSS fallbacks for Decap CMS top nav elements */
+    a[href*="media"],
+    a[href="#/media"],
+    header nav a:nth-of-type(2),
+    [class*="AppHeader"] a:nth-of-type(2),
+    [class*="appHeader"] a:nth-of-type(2) {
       display: none !important;
     }
   </style>
@@ -17,5 +21,16 @@
 <body>
   <!-- Decap CMS Script -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+  <!-- Observer script to force-remove the tab as React renders it -->
+  <script>
+    const observer = new MutationObserver(() => {
+      const mediaTabs = document.querySelectorAll('a[href*="media"], a[href="#/media"]');
+      mediaTabs.forEach(tab => {
+        tab.style.setProperty('display', 'none', 'important');
+      });
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  </script>
 </body>
 </html>
