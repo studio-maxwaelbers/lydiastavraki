@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: studio-maxwaelbers/lydiastavraki
+  name: git-gateway
   branch: main
-  auth_methods: [oauth]
-  site_domain: lydiastavraki.netlify.app
 
 media_folder: "images"
 public_folder: "images"
