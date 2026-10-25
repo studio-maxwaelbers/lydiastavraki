@@ -1,30 +1,30 @@
 {
-  "datesFooter": "***10 July ft. Ana Fiszman, Johnnie Elza Zumente Steele & Daan Arets",
+  "datesFooter": ".",
   "concerts": [
     {
       "date": "2026-06-12",
       "displayDate": "12 June '26",
-      "event": "Lydia Stavraki, Het Witte Paard, Rotterdam <br> <br> w/ Ana Fiszman, Johnnie Elza Zumente Steele & Carmen Martinez Navarro"
+      "event": "Het Witte Paard, Rotterdam <br> <br> w/ Ana Fiszman, Johnnie Elza Zumente Steele & Carmen Martinez Navarro"
     },
     {
       "date": "2026-06-13",
       "displayDate": "13 June '26",
-      "event": "Lydia Stavraki, Wijkfeest Provenierswijk, Spoorsingel, Rotterdam <br> <br> w/ Ana Fiszman, Johnnie Elza Zumente Steele & Carmen Martinez Navarro"
+      "event": "Wijkfeest Provenierswijk, Spoorsingel, Rotterdam <br> <br> w/ Ana Fiszman, Johnnie Elza Zumente Steele & Carmen Martinez Navarro"
     },
     {
       "date": "2026-07-04",
       "displayDate": "4 July '26",
-      "event": "Lydia Stavraki duo (w/ Ana Fiszman), Jazzhaven, NSRT, Rotterdam"
+      "event": "Jazzhaven, NSRT, Rotterdam <br> w/ Ana Fiszman"
     },
     {
       "date": "2026-07-09",
       "displayDate": "9 July '26",
-      "event": "Lydia Stavraki duo (w/ Ana Fiszman), Jazz op de Meent, NSRT, Rotterdam"
+      "event": " Jazz op de Meent, NSRT, Rotterdam <br> w/ Ana Fiszman"
     },
     {
       "date": "2026-07-10",
       "displayDate": "10 July '26",
-      "event": "Lydia Stavraki, Vrijmoed, NSRT, Rotterdam <br> <br> w/ Ana Fiszman, Ildo Nandja & Daan Arets"
+      "event": "Vrijmoed, NSRT, Rotterdam <br> <br> w/ Ana Fiszman, Ildo Nandja & Daan Arets"
     },
     {
       "date": "2026-08-15",
@@ -52,6 +52,10 @@
       "date": "2026-10-25",
       "displayDate": "",
       "event": "Peel the power - Eindfeest, TENT, Rotterdam"
+    },
+    {
+      "date": "2026-11-07",
+      "event": "Global Music Nights, Batavierhuis, Rotterdam <br> w/ Ana Fiszman, Johnnie Elza Zumente-Steele & Diego Hernández "
     }
   ]
 }
