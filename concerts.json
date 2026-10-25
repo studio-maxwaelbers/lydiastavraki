@@ -1,5 +1,5 @@
 {
-  "datesFooter": ".",
+  "datesFooter": "*",
   "concerts": [
     {
       "date": "2026-06-12",
@@ -24,7 +24,7 @@
     {
       "date": "2026-07-10",
       "displayDate": "10 July '26",
-      "event": "Vrijmoed, NSRT, Rotterdam <br> <br> w/ Ana Fiszman, Ildo Nandja & Daan Arets"
+      "event": "Vrijmoed, NSRT, Rotterdam <br> w/ Ana Fiszman, Ildo Nandja & Daan Arets"
     },
     {
       "date": "2026-08-15",
@@ -34,7 +34,7 @@
     {
       "date": "2026-09-05",
       "displayDate": "",
-      "event": "w/ Anita Fiszman, Laurens De Hofstee, Rotterdam"
+      "event": "Laurens De Hofstee, Rotterdam <br> Ana Fiszman"
     },
     {
       "date": "2026-09-16",
