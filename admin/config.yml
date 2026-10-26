@@ -32,7 +32,7 @@ collections:
         name: "concerts"
         format: "json"
         fields:
-          - { label: "Dates Footer Text", name: "datesFooter", widget: "text" }
+          - { label: "Dates Footer Text", name: "datesFooter", widget: "text", required: false }
           - label: "Concert Dates"
             name: "concerts"
             widget: "list"
